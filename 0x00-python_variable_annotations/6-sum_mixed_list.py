@@ -9,8 +9,8 @@
     Returns:
     float: The sum of the elements in the input list.
 '''
-from typing import List
+from typing import List, Union
 
 
-def sum_mixed_list(mxd_lst: List[float]) -> float:
+def sum_mixed_list(mxd_lst: Union[int | float]) -> float:
     return float(sum(mxd_lst))
