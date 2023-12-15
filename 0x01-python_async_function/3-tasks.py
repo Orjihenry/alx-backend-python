@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-''' 
+'''
 Takes an integer and returns an async func.
 '''
 import asyncio
